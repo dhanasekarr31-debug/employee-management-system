@@ -1,4 +1,4 @@
-const BASE = "https://employee-management-system-etpx.onrender.com/api";
+const BASE = "/api";
 
 async function request(url, options = {}) {
   const res = await fetch(url, {
