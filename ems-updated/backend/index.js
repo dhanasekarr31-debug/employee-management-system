@@ -12,7 +12,7 @@ const app = express();
 
 connectDB();
 
-app.use(cors({ origin: "https://employee-management-system-delta-eight-95.vercel.app/" }));
+app.use(cors({ origin: "https://heartfelt-figolla-56b965.netlify.app/" }));
 app.use(express.json());
 
 // Routes
