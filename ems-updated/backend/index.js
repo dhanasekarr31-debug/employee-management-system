@@ -12,7 +12,9 @@ const app = express();
 
 connectDB();
 
-app.use(cors({ origin: "https://heartfelt-figolla-56b965.netlify.app/" }));
+app.use(cors({
+  origin: "https://dhanasekar-employee-management-system.netlify.app"
+}));
 app.use(express.json());
 
 // Routes
